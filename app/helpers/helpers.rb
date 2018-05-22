@@ -1,8 +1,9 @@
+require 'pry'
+
 class Helpers
   def current_user(session)
-    console.log(session[:user_id])
     @user = User.find_by(id: session[:user_id])
-    @user
+    return @user
   end
 
   def is_logged_in?(sesh_hash)
