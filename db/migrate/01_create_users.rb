@@ -1,3 +1,3 @@
-class CreateUsers < ActiveRecord::Base[5.2]
+class CreateUsers < ActiveRecord::Migration[5.2]
 
 end
