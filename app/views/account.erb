@@ -9,13 +9,13 @@
 
     <% if Helpers.is_logged_in?(session) %>
 
-    Hi, <%= Helpers.current_user(session).username %>
-    Your balance is: <%= Helpers.current_user(session).balance %>
+    <h1>Hi, <%= Helpers.current_user(session).username %></h1>
+    <h4>Your balance is: <%= Helpers.current_user(session).balance %></h4>
 
     <a href='/logout'>Log Out</a>
     <% end %>
 
-    
+
 
   </body>
 </html>
