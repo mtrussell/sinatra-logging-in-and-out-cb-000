@@ -1,3 +1,3 @@
-class User < ActiveRecord::Migration[5.2]
+class User < ActiveRecord::Base
 
 end
