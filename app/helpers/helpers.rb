@@ -4,6 +4,6 @@ class Helpers
   end
 
   def is_logged_in?(sesh_hash)
-    
+
   end
 end
